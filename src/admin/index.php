@@ -119,11 +119,11 @@ if ($level !== "penjual") {
         <div class="form-create-product">
             <form method="post" enctype="multipart/form-data">
                 <label for="nama">Product Name</label>
-                <input type="text" name="nama" id="nama" class="input_control" placeholder="Migo VOLTA 302">
+                <input type="text" name="nama" id="nama" class="input_control" placeholder="Masukan Nama Produk">
                 <label for="harga">Price</label>
-                <input type="text" name="harga" id="harga" class="input_control" placeholder="400.000">
+                <input type="text" name="harga" id="harga" class="input_control" placeholder="Masukan Harga">
                 <label for="stock">Stock Product</label>
-                <input type="number" name="stock" id="stock" class="input_control" placeholder="2">
+                <input type="number" name="stock" id="stock" class="input_control" placeholder="Masukan Stock">
                 <label for="gambar">Image</label>
                 <input type="file" name="gambar" id="gambar">
                 <label for="deskripsi">Description</label>
